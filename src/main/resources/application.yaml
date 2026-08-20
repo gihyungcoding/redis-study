@@ -18,6 +18,13 @@ spring:
     compose:
       enabled: true
       lifecycle-management: start_and_stop
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: alpha
+    tags-sorter: alpha
 logging:
   level:
     org.springframework.cache: trace
